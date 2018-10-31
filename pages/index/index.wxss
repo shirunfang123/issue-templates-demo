@@ -1,0 +1,184 @@
+/*top  */
+
+.overseas {
+  font-size: 35rpx;
+  color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+.mechanism {
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+.mechanism .now {
+  margin-top: 8rpx;
+}
+
+.obtain {
+  border-radius: 8%;
+  border: 2rpx solid #ccc;
+  width: 200rpx;
+  text-align: center;
+  font-size: 24rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: coral;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+/*排列框  */
+
+.menu_title {
+  width: 100%;
+  display: flex;
+  font-size: 26rpx;
+  margin-top: 16rpx;
+  background-color: aquamarine;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  position: relative;
+}
+
+.menu_text {
+  margin: 0 25rpx;
+}
+
+.menu {
+  border-bottom: 4rpx solid #ccc;
+}
+
+.nums {
+  border: 1rpx solid #ccc;
+  padding: 12rpx 18rpx;
+  margin: 0 10rpx 20rpx 10rpx;
+  text-align: center;
+  border-radius: 8rpx;
+}
+
+.for_nums {
+  width: 100%;
+  display: flex;
+  font-size: 22rpx;
+  margin-top: 15rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*搜索框  */
+
+.search_text {
+  background-color: #fff;
+  font-size: 20rpx;
+  padding-left: 15rpx;
+  border-radius: 25rpx;
+  height: 50rpx;
+  align-self: center;
+  width: 260rpx;
+  color: #333;
+}
+
+.all_search {
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  position: absolute;
+  right: 10rpx;
+  z-index: 999;
+}
+
+/*大学列表  */
+
+.university .pic {
+  background-color: red;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 12rpx;
+}
+
+.school {
+  font-size: 28rpx;
+}
+
+.university .text {
+  font-size: 24rpx;
+  color: #333;
+  width: 500rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 16rpx;
+}
+
+.university .right {
+  align-self: center;
+  margin-left: 26rpx;
+}
+
+.university {
+  display: flex;
+  height: 220rpx;
+  flex-direction: row;
+  width: 94%;
+  border: 1rpx solid #f5f5f5;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+
+.all_university {
+  background-color: #f5f5f5;
+  padding: 15rpx 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.university .img {
+  height: 48rpx;
+  width: 48rpx;
+  margin-right: 16rpx;
+}
+
+.university .bottom {
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  margin-top: 26rpx;
+  justify-content: space-between;
+}
+
+.university .bottom_img {
+  display: flex;
+  flex-direction: row;
+  color: #ccc;
+  align-self: center;
+}
+
+.university .times {
+  color: coral;
+  font-weight: 400;
+  align-self: center;
+}
+
+.university .name {
+  align-self: center;
+}
+
+.university .Qs {
+  color: #333;
+  align-self: center;
+}

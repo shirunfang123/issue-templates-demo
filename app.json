@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/apply/apply",
+    "pages/find/find",
+    "pages/go_Lpo/go_Lpo",
+    "pages/go_Cm/go_Cm",
+    "pages/go_Iot/go_Iot",
+    "pages/go_Ifp/go_Ifp",
+    "pages/successSub/successSub",
+    "pages/details/details",
+    "pages/detailsPic/detailsPic",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ApplyTO",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#AAAAAA",
+    "backgroundColor": "#fff",
+    "selectedColor": "#595959",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "选校",
+        "iconPath": "/img/collage.png",
+        "selectedIconPath": "/img/collage_01.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "/img/find.png",
+        "selectedIconPath": "/img/find_01.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/mine.png",
+        "selectedIconPath": "/img/mine_01.png"
+      }
+    ]
+  }
+}

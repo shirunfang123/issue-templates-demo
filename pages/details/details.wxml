@@ -1,0 +1,99 @@
+<!-- 顶部图片 -->
+<image src='{{}}' class='top_pic' bindtap='detailsPic'></image>
+<view class='school'>牛津大学</view>
+<view class='Eschool'>University of Oxford</view>
+<view class='ranking'>
+  <view class='Times'>Times
+    <text class='nums'>1</text> </view>
+  <view class='Times'>Qs
+    <text class='nums'>2</text> </view>
+</view>
+<!-- 专业 -->
+<view class='speciality'>专业</view>
+<view class='all_spe'>
+  <view class='Spe_title'>
+    <!-- 左边 -->
+    <view class='left'>
+      <view class='title'>Master of Science (Msc) in Advanced</view>
+      <view class='titlenums'>Information Systems</view>
+      <view class='titlefirst'>Faculty of Science</view>
+      <view class='degree'>信息系统 ( 硕士 ) </view>
+    </view>
+    <!-- 右边 -->
+    <view class='right'>
+      <image src='/img/skip.png' class='skip'></image>
+    </view>
+  </view>
+  <view class='bottonR'>
+    <view wx:if="{{add==0}}" bindtap='add' class='add'> + Add to Favorite</view>
+    <view wx:if="{{add==1}}" bindtap='remove' class='add'> - remove</view>
+    <view class='intake'>
+      <image src='/img/open.png' class='open'></image>
+      <view class='text'>Intake: OPEN</view>
+    </view>
+  </view>
+</view>
+<!-- 内容 -->
+<view class='all_intro'>
+  <view class='introduction' wx:for="{{3}}" wx:key="item">
+    <image src='{{}}' class='pic'></image>
+    <view class='right'>
+      <view class='study'>Study Mode</view>
+      <view class='time'>Full-time 1 year</view>
+    </view>
+  </view>
+</view>
+<!-- 下拉选择框 -->
+<view class='all_down' bindtap='go_down' wx:if="{{downed==0}}">
+  <view class='down'>
+    <view> ADMISSION REQUITMENT </view>
+    <image src='/img/next.png' class='next'></image>
+  </view>
+</view>
+<view class='all_down' bindtap='un_down' wx:if="{{downed==1}}">
+  <view class='down' wx:for="{{4}}">
+    <view> ADMISSION REQUITMENT </view>
+    <image wx:if="{{index==0}}" src='/img/next.png' class='next'></image>
+  </view>
+</view>
+
+<!-- 更多详情 -->
+<view class='more'>
+  <view>Engineering Science encompasses a vast rangle of subjects,from microelectronics to offshore oil platforms, and involves the application of creative</view>
+  <view class='consult'>更多详情 敬请咨询</view>
+</view>
+<!-- 大家印象 -->
+<view class='impression'>大家印象</view>
+<view class='allImpre' wx:for="{{3}}" wx:key="item">
+  <view class='top_Impre'>
+    <view class='pic'>
+      <image src='{{}}' class='pic'></image>
+    </view>
+    <view>
+      <view class="{{opend==0?'title':'titled'}}">Engineering Science encompasses a vast rangle of subjects,from microelectronics to offshore oil platforms, and involves the application of creative Engineering Science encompasses a vast rangle of subjects,from microelectronics to offshore oil platforms,and
+        involves the application of creative</view>
+      <!-- 图片 -->
+      <view class='Allcomment' wx:if="{{opend==1}}">
+        <image wx:for="{{3}}" wx:key="item" src='{{}}' class='commentPic'></image>
+      </view>
+      <view class='bottonB'>
+        <view class='peopleNums'>
+          <image src='/img/goods.png' class='goods'></image>
+          <view class='nums'>123,456人觉得很赞</view>
+        </view>
+        <view wx:if="{{opend==0}}" class='opened' bindtap='opend'>
+          <view class='lined'>——</view>
+          <view class='expansion'>展开</view>
+          <image src='/img/next.png' class='next'></image>
+          <view class='lined'>——</view>
+        </view>
+        <view wx:if="{{opend==1}}" class='opened' bindtap='downed'>
+          <view class='lined'>——</view>
+          <view class='expansion'>收起</view>
+          <image src='/img/next.png' class='next'></image>
+          <view class='lined'>——</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<view class='top'>
+  <view wx:for="{{meus}}" wx:key="item" class="{{index==menu_index?'line':''}}" bindtap='go_menu' data-menu_index='{{index}}'>{{item.title}}</view>
+</view>
+<!-- 滑动切换 -->
+<swiper bindchange="change_title" current='{{menu_index}}' style='height:{{windowHeight-100}}px;'>
+  <swiper-item>
+    <view class='all_text'>
+      <view class="One" bindtap='go_Lpo'>
+        <view class='titleOne'>LPO</view>
+        <view class='textOne'>专为中校家庭提供英国私校留学最优方案</view>
+      </view>
+      <view class="One" bindtap='go_Cm'>
+        <view class='titleOne'>洋学板</view>
+        <view class='textOne'>Campus Mate</view>
+      </view>
+      <view class="One" bindtap='go_Iot'>
+        <view class='titleOne'>雅思 IOT</view>
+        <view class='textOne'>全球化雅思评测平台</view>
+      </view>
+      <view class="One">
+        <view class='titleOne'>IFP</view>
+        <view class='textOne'>(国内本预)</view>
+        <view class='textOne'>LSE、KCL、URL等名校设计课程专为优秀学生打造精英大学绿色通道</view>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='contact'>
+      业务介绍Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,nascetur
+      ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+      accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </view>
+    <view class='address'>
+      <view>北京地址：</view>
+      <view class='tel'>北京电话：</view>
+    </view>
+     <view class='address'>
+      <view>上海地址：</view>
+      <view class='tel'>上海电话：</view>
+    </view>
+     <view class='address'>
+      <view>深圳地址：</view>
+      <view class='tel'>深圳电话：</view>
+    </view>
+     <view class='address'>
+      <view>伦敦地址：</view>
+      <view class='tel'>伦敦电话：</view>
+    </view>
+  </swiper-item>
+</swiper>

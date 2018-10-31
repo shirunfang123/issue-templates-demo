@@ -1,0 +1,330 @@
+/* pages/details/details.wxss */
+
+.top_pic {
+  height: 350rpx;
+  width: 100%;
+  background-color: red;
+}
+
+.school {
+  width: 100%;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: bolder;
+  margin-top: 50rpx;
+}
+
+.speciality {
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: bolder;
+  margin-top: 50rpx;
+}
+
+.Eschool {
+  width: 100%;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ccc;
+  font-weight: bold;
+  margin-top: 8rpx;
+}
+
+.ranking {
+  margin-top: 60rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 22rpx;
+  color: blue;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.Times {
+  border: 2rpx solid #ccc;
+  width: 120rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.nums {
+  margin-left: 4rpx;
+}
+
+.Spe_title .title {
+  font-size: 26rpx;
+}
+
+.Spe_title {
+  width: 100%;
+  display: flex;
+}
+
+.Spe_title .titlenums {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.Spe_title .titlefirst {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+.Spe_title .degree {
+  font-size: 26rpx;
+  margin-top: 26rpx;
+}
+
+.Spe_title .skip {
+  height: 48rpx;
+  width: 48rpx;
+}
+
+.Spe_title .right {
+  margin-left: auto;
+  margin-right: 26rpx;
+  margin-top: 16rpx;
+}
+
+.Spe_title .left {
+  margin-left: 26rpx;
+  margin-top: 16rpx;
+}
+
+.all_spe {
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  padding: 20rpx 0;
+  margin-top: 20rpx;
+}
+
+.all_spe .add {
+  font-size: 24rpx;
+  border: 1rpx solid #fff;
+  width: 250rpx;
+  text-align: center;
+  border-radius: 8rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.open {
+  height: 48rpx;
+  width: 48rpx;
+}
+
+.intake {
+  display: flex;
+  flex-direction: row;
+  width: 250rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  color: #333;
+  font-size: 22rpx;
+}
+
+.intake .text {
+  margin-left: 16rpx;
+}
+
+.bottonR {
+  margin: 3%;
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction .pic {
+  align-self: center;
+  height: 80rpx;
+  width: 80rpx;
+  background-color: red;
+}
+
+.introduction {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40rpx;
+}
+
+.introduction .study {
+  font-size: 24rpx;
+  font-weight: bolder;
+}
+
+.introduction .time {
+  font-size: 24rpx;
+  color: rgb(22, 22, 22);
+  margin-top: 8rpx;
+}
+
+.introduction .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 26rpx;
+  height: 80rpx;
+}
+
+.all_intro {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 26rpx 26rpx 0rpx 26rpx;
+}
+
+/* 下拉选择框 */
+
+.down {
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.all_down {
+  width: 80%;
+  margin: 0 6%;
+  border: 1rpx solid #ccc;
+  padding: 0 4%;
+  border-radius: 8rpx;
+}
+
+
+
+.all_down .next {
+  width: 32rpx;
+  height: 32rpx;
+  align-self: center;
+  margin-left: auto;
+}
+
+/* 更多详情 */
+
+.more {
+  margin-top: 40rpx;
+  width: 94%;
+  background-color: #f5f5f5;
+  font-size: 26rpx;
+  padding: 3%;
+}
+
+.consult {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40rpx;
+}
+
+.impression {
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bolder;
+  margin-top: 40rpx;
+}
+
+.allImpre {
+  width: 100%;
+  padding-top: 20rpx;
+  padding-left: 24rpx;
+  border-top: 1rpx solid #ccc;
+  margin-top: 20rpx;
+}
+
+.allImpre .pic {
+  width: 68rpx;
+  height: 68rpx;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.allImpre .title {
+  width: 90%;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.allImpre .titled {
+  width: 90%;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+}
+
+
+.top_Impre {
+  display: flex;
+}
+
+.goods {
+  height: 48rpx;
+  width: 48rpx;
+  align-self: center;
+}
+
+.allImpre .nums {
+  font-size: 22rpx;
+  align-self: center;
+  margin-left: 8rpx;
+}
+
+.peopleNums {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16rpx;
+}
+
+.next {
+  height: 16rpx;
+  width: 16rpx;
+  margin: 10rpx 10rpx 0 10rpx;
+}
+
+.allImpre .opened {
+  display: flex;
+  font-size: 24rpx;
+  color: blue;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 50rpx;
+}
+
+.allImpre .lined {
+  font-size: 16rpx;
+  font-weight: bolder;
+  margin-top: 6rpx;
+}
+
+.allImpre .bottonB {
+  width: 100%;
+  display: flex;
+  height: 80rpx;
+}
+
+.allImpre .expansion {
+  margin-left: 10rpx;
+}
+
+.allImpre .commentPic {
+  height: 180rpx;
+  width: 180rpx;
+  background-color: red;
+  border-radius: 10rpx;
+}
+.allImpre .Allcomment{
+  margin-top: 15rpx;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}

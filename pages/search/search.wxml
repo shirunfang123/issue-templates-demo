@@ -1,0 +1,22 @@
+<view class='search-top'>
+  <input placeholder='oxford' class='searchInput' value='{{inputValue}}'></input>
+  <view class='cancle' bindtap='cancle'>取消</view>
+</view>
+<!-- 大学 -->
+<view class='all_university' wx:for="{{2}}">
+  <view class='university' bindtap='details'>
+    <image src='{{}}' class='pic'></image>
+    <view class='right'>
+      <view class='school'>牛津大学</view>
+      <view class='text'> dfdbcc dfhfh dfksd dsffdkal dfasskkjdf dfff dfdkfdsakj dfdsaf </view>
+      <view class='bottom'>
+        <view class='times'>Times:1</view>
+        <view class='Qs'>Qs:2</view>
+        <view class='bottom_img'>
+          <image src='/img/school.png' class='img'></image>
+          <view class='name'>England Oxford</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

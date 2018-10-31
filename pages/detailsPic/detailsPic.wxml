@@ -1,0 +1,9 @@
+<view class='videoed'>
+  <video src="{{}}" autoplay="true"></video>
+</view>
+<view class='all-classity' >
+  <view class='all-name' wx:for="{{4}}">
+    <image src='{{}}' class='pic'></image>
+    <view class='name'>食堂</view>
+  </view>
+</view>

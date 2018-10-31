@@ -1,0 +1,29 @@
+/* pages/search/search.wxss */
+@import "/pages/index/index.wxss";
+
+.searchInput {
+  background-color: #fff;
+  width: 80%;
+  height: 58rpx;
+  line-height: 58rpx;
+  color: #333;
+  font-size: 26rpx;
+  align-self: center;
+  border-radius: 44rpx;
+  margin-left: 2%;
+  padding-left: 15rpx;
+}
+
+.search-top {
+  width: 100%;
+  height: 78rpx;
+  display: flex;
+  background-color: blue;
+}
+
+.search-top .cancle {
+  color: #fff;
+  font-size: 26rpx;
+  align-self: center;
+  margin-left: 30rpx;
+}

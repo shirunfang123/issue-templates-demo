@@ -1,0 +1,55 @@
+<!--top  -->
+<view class='overseas '>留学方案规划</view>
+<view class='mechanism'>
+  <view>由英国政府授权直属单位UKuni英国大学中心</view>
+  <view class='now'>直接为你量身定制</view>
+</view>
+<view class='top'>
+  <view class='obtain' bindtap='go_apply'>免费获取</view>
+</view>
+<!--排列框  -->
+<view class='menu_title'>
+  <view class="menu_text {{index==menu_index?'menu':''}}" wx:for="{{meus}}" wx:key="item" bindtap='go_menu' data-menu_index='{{index}}'>{{item.title}} </view>
+  <!--定位搜索框  -->
+  <view class='all_search' bindtap='search'>
+    <input placeholder='输入学校名' class='search_text'></input>
+  </view>
+</view>
+<!--times排名  -->
+<view class='for_nums' wx:if="{{menu_index==0}}">
+  <view class='nums' wx:for="{{6}}">1-20</view>
+</view>
+<!--Qs排名  -->
+<view class='for_nums' wx:if="{{menu_index==1}}">
+  <view class='nums' wx:for="{{6}}">1-20</view>
+</view>
+<!--地区  -->
+<view class='for_nums' wx:if="{{menu_index==2}}">
+  <view class='nums' wx:for="{{5}}">英格兰</view>
+</view>
+
+<!--大学列表页  -->
+<swiper style='height:{{windowHeight-200}}px;' bindchange="change_title" current='{{menu_index}}'>
+  <swiper-item wx:for="{{3}}">
+    <scroll-view scroll-y style='height:100%'>
+      <view class='all_university' wx:for="{{6}}">
+        <view class='university' bindtap='details'>
+          <image src='{{}}' class='pic'></image>
+          <view class='right'>
+            <view class='school'>牛津大学</view>
+            <view class='text'> dfdbcc dfhfh dfksd dsffdkal dfasskkjdf dfff dfdkfdsakj dfdsaf </view>
+            <view class='bottom'>
+              <view class='times'>Times:1</view>
+              <view class='Qs'>Qs:2</view>
+              <view class='bottom_img'>
+                <image src='/img/school.png' class='img'></image>
+                <view class='name'>England Oxford</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+
+  </swiper-item>
+</swiper>

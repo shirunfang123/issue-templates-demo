@@ -1,0 +1,167 @@
+/* pages/mine/mine.wxss */
+
+.wx-pic {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 20rpx;
+}
+
+.name {
+  align-self: center;
+  font-size: 24rpx;
+  color: #333;
+  margin-left: 30rpx;
+  margin-top: 16rpx;
+}
+
+.top {
+  display: flex;
+  height: 120rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 0;
+}
+
+.tel {
+  color: #ccc;
+  font-size: 22rpx;
+}
+
+.getTel {
+  margin-left: 16rpx;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* 菜单切换 */
+
+.menu_title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.menu {
+  border-bottom: 1rpx solid #333;
+}
+
+.overseas {
+  font-size: 26rpx;
+  color: blue;
+  width: 100%;
+  margin-left: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.open {
+  font-size: 24rpx;
+  color: #333;
+  width: 90%;
+  margin-left: 5%;
+  border: 1rpx solid #333;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.money {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 30rpx 0;
+}
+
+.moneyNums {
+  border: 1rpx solid #333;
+  height: 320rpx;
+  width: 320rpx;
+  text-align: center;
+  line-height: 320rpx;
+  border-radius: 20rpx;
+}
+
+.increment {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 30rpx 0;
+}
+
+.classited {
+  border: 1rpx solid #333;
+  height: 100rpx;
+  width: 150px;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  margin: 20rpx 0;
+}
+
+.classited-last {
+  border: 1rpx solid #333;
+  height: 100rpx;
+  width: 100px;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  margin: 20rpx 0;
+}
+
+/* 查看留学规划 */
+
+.see_plan {
+  background-color: blue;
+  color: #fff;
+  font-size: 24rpx;
+  width: 80%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 45rpx;
+  margin-left: 10%;
+  margin-top: 30rpx;
+}
+
+.see-pic {
+  background-color: red;
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 8rpx;
+  margin-left: 24rpx;
+}
+
+.new {
+  font-size: 26rpx;
+}
+
+.see {
+  width: 100%;
+  display: flex;
+  height: 100rpx;
+  color: #fff;
+  background-color: #ccc;
+  padding: 20rpx 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.see-study {
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+
+.right {
+  align-self: center;
+  margin-left: 40rpx;
+}

@@ -1,0 +1,55 @@
+<!--姓名  -->
+<view class='all'>
+  <view class="all_name">
+    <view> 称呼</view>
+    <input placeholder='必填' class='get_input' placeholder-class='name'></input>
+    <view class="{{onSex==0?'woman':'man'}}" bindtap='get_sex'>男</view>
+    <view class="{{onSex==1?'woman':'man'}}" bindtap='get_wosex'>女</view>
+  </view>
+  <!--来自哪里 -->
+  <view class='come'>
+    来自
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class='city'>
+        {{region[0]}}，{{region[1]}}，{{region[2]}}
+      </view>
+    </picker>
+  </view>
+  <!-- 学校 -->
+  <view class='school'>
+    <view>学校</view>
+    <input class='Sname' placeholder='国内就读学校' placeholder-class='name'></input>
+  </view>
+  <!--专业  -->
+  <view class='school'>
+    <view>专业</view>
+    <input class='Sname' placeholder='必填' placeholder-class='name'></input>
+  </view>
+  <!--成绩  -->
+  <view class='school'>
+    <view>成绩</view>
+    <input class='Sname' placeholder='如，GPA，平均分或高考' placeholder-class='name'></input>
+  </view>
+  <!--申请  -->
+  <view class='school'>
+    <view>申请</view>
+    <input class='Sname' placeholder="要申请的学校,多家学校用',' 隔开" placeholder-class='name'></input>
+  </view>
+  <!--专业  -->
+  <view class='school'>
+    <view>专业</view>
+    <input class='Sname' placeholder="要申请的专业,多个专业用',' 隔开" placeholder-class='name'></input>
+  </view>
+  <!--预算  -->
+  <view class='school'>
+    <view>预算</view>
+    <input class='Sname' placeholder="预算￥花费/年" placeholder-class='name'></input>
+  </view>
+  <!--备注  -->
+  <view class='remarks'>
+    <view class='Re_idea'>备注</view>
+    <textarea class='idea' placeholder-class='get_remark' placeholder='描述补充一下您的想法'>
+    </textarea>
+  </view>
+  <view class='submit' bindtap='go_submit'>提交</view>
+</view>

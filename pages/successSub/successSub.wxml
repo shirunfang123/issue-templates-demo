@@ -1,0 +1,7 @@
+<view class='all'>
+  <image src='{{}}' class='pic'></image>
+  <view class='notice'>
+    您所提交的信息将是严格保密的。留学规划建议方案将由UKuni英国大学服务中心提供，一般在72小时内可到“我的”中查看结果。或识别下方二维码关注“微信公众号”，第一时间获取结果通知。
+  </view>
+  <image src='{{}}' class='code'></image>
+</view>

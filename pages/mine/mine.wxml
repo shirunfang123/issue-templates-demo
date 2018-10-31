@@ -1,0 +1,55 @@
+<view class='top'>
+  <image src='{{}}' class='wx-pic'></image>
+  <view class='name'>
+    <view>用户微信（读取微信）</view>
+    <view>
+      <text class='tel'>(未绑定手机)</text>
+      <text class='getTel'>绑定手机</text>
+    </view>
+  </view>
+</view>
+<!-- 留学申请切换 -->
+
+<view class='menu_title'>
+  <view class="{{index==menu_index?'menu':''}}" wx:for="{{meus}}" wx:key="item" bindtap='go_menu' data-menu_index='{{index}}'>{{item.title}} </view>
+</view>
+<!--大学列表页  -->
+<swiper style='height:{{windowHeight-60}}px;' bindchange="change_title" current='{{menu_index}}'>
+  <swiper-item>
+    <scroll-view scroll-y style='height:100%'>
+      <view>
+        <view class='overseas'>留学申请</view>
+        <view class='open'>
+          《《 一键开启免费留学申请 》》
+        </view>
+        <view class='money'>
+          <view class='moneyNums'>一万合同描述</view>
+          <view class='moneyNums'> 3万合同描述</view>
+        </view>
+        <view class='overseas'>增值服务</view>
+        <view class='increment'>
+          <view class='classited'>签证</view>
+          <view class='classited'> 每日签到领奖励</view>
+          <view class='classited-last'> 文本翻译</view>
+          <view class='classited-last'> 接机</view>
+          <view class='classited-last'> 住宿</view>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+  <!-- 切换 -->
+  <swiper-item>
+    <scroll-view scroll-y style='height:100%'>
+      <view >
+        <view class='see_plan'>查看留学规划</view>
+        <view class='see'>
+          <image src='{{}}' class='see-pic'></image>
+          <view class='right'>
+            <view class='new'>全球雅思测试、真题模拟</view>
+            <view class='see-study'>千名雅思考官为考生优化学习方案</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+</swiper>
